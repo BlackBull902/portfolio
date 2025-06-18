@@ -64,6 +64,16 @@ section {
     text-align: center;
 }
 
+p{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.competence{
+    text-align: center;
+}
+
 /* Section Profil */
 #profil {
     display: flex;
@@ -71,11 +81,6 @@ section {
 
 }
 
-#profil p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-    line-height: 1.8;
-}
 
 #denis {
     max-width: 200px;
@@ -85,10 +90,6 @@ section {
 
 /* Section Formation */
 
-
-#formation p {
-    text-align: center;
-}
 
 
 
@@ -114,11 +115,6 @@ section {
 /* Section Projets */
 
 
-#projets p {
-    font-size: 1.1em;
-    margin-bottom: 15px;
-    text-align: center;
-}
 
 #didactypo_img {
     max-width: 4rem;
