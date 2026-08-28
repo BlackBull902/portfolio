@@ -1,0 +1,183 @@
+{
+    "etl-immo": {
+        "titre_proj": "Projet BI pour une agence immobilière",
+        "duree_proj": "BUT: S6",
+        "contexte_proj": "Ce projet a pour objectif de répondre à certains besoins donnés par l’agence immobilière afin d’améliorer la prise de décisions. Pour effectuer ceci, il était nécessaire de modéliser les données sous forme de modélisation décisionnelle, afin de construire un rapport BI, pour présenter la donnée de la meilleure manière.\nNous avons pris la décision d’utiliser un outil ETL, pour modéliser les données. Le choix est tombé sur Apache Hop, qui est un outil gratuit et open-source, avec lequel on a de l’expérience. Malgré les problèmes que cet outil peut causer, il reste compététif. Pour aller plus dans les détails, nous avons pris la nouvelle version V2.17, pour utiliser un nouvel outil qui est sorti avec cette version.\nAvec les données maintenant parfaitement nettoyées et organisées en modélisation étoile, on a créé le rapport avec PowerBI.\nCe projet a fortement augmenté mes compétences dans la création de pipelines ETL et m'a donné une première expérience dans un projet data.",
+        "image_proj": [
+            "powerbi.png",
+            "hop-pipeline.png",
+            "hop-workflow.png"
+        ],
+        "techno_proj": [
+            {
+                "text": "Apache Hop : Outil ETL open-source ",
+                "img": "hop.png",
+                "alt": "Logo de Apache Hop"
+            },
+            {
+                "text": "Power BI : Création de tableaux de bords",
+                "img": "powerbi.png",
+                "alt": "Logo de Power BI"
+            },
+            {
+                "text": "Power AMC : Outil de modélisation",
+                "img": "poweramc.png",
+                "alt": "Logo de Power AMC"
+            }
+        ],
+        "comp_proj": [
+            "Analyser les besoins décisionnels",
+            "Modélisation décisionnelle",
+            "Création d'une architecture ETL",
+            "Nettoyage des données",
+            "Visualisation et présentation des données",
+            "Data storytelling"
+        ],
+        "git_proj": [
+            {
+                "text": "ETL",
+                "href": "https://forge.univ-lyon1.fr/p2303024/immo"
+            }
+        ]
+    },
+    "feedwatch": {
+        "titre_proj": "Projet web de gestion des Flux RSS",
+        "duree_proj": "BUT: S5",
+        "contexte_proj": "Après une étude de l'existant, nous avons remarqué qu'il n'y a pas de site web gratuit, proposant une gestion des flux RSS. Un flux RSS est comme un abonnement à un journal. On peut par exemple s'abonner au flux RSS politique de Le Monde, pour recevoir tous les articles sur ce sujet.\nPour ce projet, nous avons travaillé avec toute la classe. On avait 3 équipes : front-end, back-end (mon équipe), devops et un chef de projet ainsi qu'un chef par équipe.\nJ'ai découvert dans ce projet comment travailler dans une grande équipe (16 personnes) et tous les problèmes, notamment de communication et de compréhension du sujet, qui apparaissent.",
+        "image_proj": [],
+        "techno_proj": [
+            {
+                "text": "FastApi : Framework python back-end",
+                "img": "fastapi.png",
+                "alt": "Logo de Fastapi"
+            },
+            {
+                "text": "Docker : Création d'images et conteneurs communs",
+                "img": "docker.png",
+                "alt": "Logo de Docker"
+            },
+            {
+                "text": "React : Framework web front-end",
+                "img": "react.png",
+                "alt": "Logo de React"
+            }
+        ],
+        "comp_proj": [
+            "Travail dans une grande équipe",
+            "Présentation du travail aux chefs d'équipe",
+            "Analyse de l'existant",
+            "Coordination de la conception de la base de données",
+            "Accompagnement des membres de l’équipe dans la prise en main de FastAPI"
+        ],
+        "git_proj": []
+    },
+    "handistat": {
+        "titre_proj": "Projet web de recensement de son handicap",
+        "duree_proj": "BUT: S5",
+        "contexte_proj": "L’objectif du site web Handistat est de donner une plateforme de recensement et d’échange entre les personnes handicapées en France. Le rôle du site n’est en aucun cas d’informer ou de conseiller des personnes en situation de handicap, mais de donner aux utilisateurs un forum pour échanger entre eux. On souhaite inclure le plus de personnes que possible, nous avons donc créé plusieurs sous-parties liées au type de handicap (motrice, visuel, etc.). Sur ce site, les personnes peuvent recenser des informations concernant leur handicap, notamment leur accès aux aides et structures aidant la vie avec leur handicap et leurs problèmes.\nLe site web a été crée avec Symfony et Hotwire, le framework front-end intégré dans Symfony. Le tableau de bord interactif, qui présente les données anonymisées de tous les utilisateurs, a été créé avec dc.js.\nCe projet m’a permis d’apprendre à présenter et défendre une idée à travers un pitch, puis à la concrétiser en développant une solution répondant à notre besoin initial. De plus il était intéressant de faire un projet qui nécessite de la maintenance et de l'administration.",
+        "image_proj": [
+            "home.png",
+            "recensement-moteur.png",
+            "recensement-détails.png",
+            "graphiques.png",
+            "forum.png"
+        ],
+        "techno_proj": [
+            {
+                "text": "Symfony : framework php back-end",
+                "img": "symfony.png",
+                "alt": "Logo de Symfony"
+            },
+            {
+                "text": "Hotwire : framework légé front-end",
+                "img": "hotwire.png",
+                "alt": "Logo de Docker"
+            },
+            {
+                "text": "Dc.js : librairie JS de tableaux de bord web interactifs",
+                "img": "dc.png",
+                "alt": "Logo de Dc.js"
+            }
+        ],
+        "comp_proj": [
+            "Présenter un projet",
+            "Mener un projet",
+            "Visualisation de données avec dc.js",
+            "Développement avec Hotwire"
+        ],
+        "git_proj": [
+            {
+                "text": "Lien Gitlab",
+                "href": "https://forge.univ-lyon1.fr/p2308678/handistat"
+            }
+        ]
+    },
+    "didactypo": {
+        "titre_proj": "Projet web d'apprentissage de la dactylographie",
+        "duree_proj": "BUT: S3",
+        "contexte_proj": "Ce projet web effectué dans une équipe de 4 élèves en méthode agile a pour objectif de proposer une plateforme sécurisée et adaptée aux élèves de maternelle et de primaire.La section Apprendre met à disposition des cours et des exercices associés à un système de badges permettant de récompenser la progression des élèves.Une section Challenge permet également aux utilisateurs de se mettre en compétition en tentant de rédiger le paragraphe de la semaine le plus rapidement possible.Enfin, une fonctionnalité de chatroom permet aux enseignants de créer des groupes, d’y ajouter leurs élèves, de communiquer avec eux et de suivre leur progression.\nDans ce projet, on a pris la décision d'utiliser des frameworks front-end et back-end, pour découvrir ces outils et aussi gagner du temps sur le long terme, comparé à un projet en PHP et JS dur.",
+        "image_proj": [
+            "home.png",
+            "apprendre.png",
+            "competition.png"
+        ],
+        "techno_proj": [
+            {
+                "text": "FastApi : Framework python back-end",
+                "img": "fastapi.png",
+                "alt": "Logo de Fastapi"
+            },
+            {
+                "text": "React : Framework web front-end",
+                "img": "react.png",
+                "alt": "Logo de React"
+            }
+        ],
+        "comp_proj": [
+            "Développement avec Fastapi",
+            "Conception d'un site web en React",
+            "Effectuer en projet en méthode Agile Scrum",
+            "Gestion des sprints"
+        ],
+        "git_proj": [
+            {
+                "text": "Lien front-end",
+                "href": "https://github.com/BlackBull902/didactypo-front"
+            },
+            {
+                "text": "Lien back-end",
+                "href": "https://github.com/BlackBull902/didactypo-back"
+            }
+        ]
+    },
+    "aerogestion": {
+        "titre_proj": "Projet Java de la gestion des Vols",
+        "duree_proj": "BUT: S2",
+        "contexte_proj": "Dans le cadre de ce projet Java, nous avons développé une application permettant, dans un premier temps, d’extraire des données relatives à des vols planifiés, puis de calculer les trajectoires entre les différents vols. Nous avons ensuite identifié les croisements entre les trajectoires des avions, que nous avons représentés sous forme de graphe.\nNous avons utilisé les algorithmes DSATUR et Welsh & Powell afin d’effectuer une coloration des nœuds du graphe. Cette coloration permet de déterminer différentes altitudes de vol pour les avions, afin d’éviter les risques de collision. L’interface graphique de l’application a été développée avec Swing.\nJ’ai occupé le rôle de chef de projet. Après avoir terminé l’implémentation des algorithmes, j’ai accompagné les autres membres de l’équipe dans leurs tâches, tout en veillant à maintenir une bonne circulation de l’information et au bon fonctionnement global du projet.",
+        "image_proj": [
+            "home.png",
+            "menu.png",
+            "menu-coloration.png",
+            "algo.png"
+        ],
+        "techno_proj": [
+            {
+                "text": "Java : langage de l'application",
+                "img": "java.png",
+                "alt": "Logo de Java"
+            }
+        ],
+        "comp_proj": [
+            "Diriger un projet",
+            "Gestion de l'équipe",
+            "Développement en Java",
+            "Git"
+        ],
+        "git_proj": [
+            {
+                "text": "Lien Gitlab",
+                "href": "https://forge.univ-lyon1.fr/p2308678/aerogestion"
+            }
+        ]
+    }
+}

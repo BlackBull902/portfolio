@@ -1,0 +1,34 @@
+#image-pro img {
+    width: 100%;
+    height: auto;
+}
+
+#image-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#techno-pro img {
+    height: 130px;
+    object-fit: contain;
+}
+
+.wrapper-techno-text {
+    background-color: #423f3f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    white-space: pre-line;
+    line-height: 1.8;
+}

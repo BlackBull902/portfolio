@@ -38,7 +38,6 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 .div_h2_img {
@@ -64,13 +63,13 @@ section {
     text-align: center;
 }
 
-p{
+p {
     font-size: 1.2em;
     margin-bottom: 20px;
     line-height: 1.8;
 }
 
-.competence{
+.competence {
     text-align: center;
 }
 
@@ -106,10 +105,10 @@ p{
 /* Section parcours pro */
 
 
-#cermep img {
-    max-width: 15rem;
-    max-height: 10rem;
-    margin-left: 15px;
+#parcours-pro img {
+    width: 11rem;
+    height: 5rem;
+    object-fit: contain;
 }
 
 /* Section Projets */
@@ -122,46 +121,6 @@ p{
 
 }
 
-
-
-#git_didactypo a {
-    margin-right: 20px;
-}
-
-/* Boutons */
-.bouton {
-    background-color: #3498db;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 5px;
-}
-
-.bouton:hover {
-    background-color: #2980b9;
-}
-
-/* Collapse */
-.div_competences,
-.div_git {
-    margin-top: 15px;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-.div_competences {
-    border-left: 4px solid #3498db;
-    background-color: #ecf0f1;
-
-}
-
-.competence {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-}
-
 /* Liens */
 body a {
     text-decoration: none;
@@ -170,33 +129,4 @@ body a {
 
 a:hover {
     text-decoration: underline;
-}
-
-/* Responsivité */
-@media screen and (max-width: 768px) {
-    main {
-        padding: 10px;
-    }
-
-    content {
-        flex-direction: column;
-    }
-
-    button {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    div {
-        padding: 0 10px;
-    }
-
-    .div_h2_img {
-        flex-direction: column;
-    }
-
-
-    main {
-        margin: 0 auto;
-    }
 }

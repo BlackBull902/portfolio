@@ -1,0 +1,89 @@
+{
+    "stage-hcl": {
+        "titre_pro": "Stage aux HCL",
+        "duree_pro": "août - octobre 2026",
+        "contexte_pro": "Dans le cadre de ce stage, nous développons un site web pour le Centre de Ressources Biologiques (CRB) des Hospices Civils de Lyon (HCL), afin de dématérialiser et de simplifier le processus de demande d’échantillons. Le site doit également présenter de manière claire et visuelle les différentes ressources disponibles, tout en permettant aux chercheurs de rechercher facilement les échantillons correspondant à leurs besoins.",
+        "image_pro": [
+            "vue-globale.png",
+            "maladie.png",
+            "demande.png"
+        ],
+        "techno_pro": [
+            {
+                "text": "Vue JS : Framework front-end",
+                "img": "vue.png",
+                "alt": "Logo de Vue.js"
+            },
+            {
+                "text": "FastApi : Framework python back-end",
+                "img": "fastapi.png",
+                "alt": "Logo de Fastapi"
+            },
+            {
+                "text": "Pandas : Extraction des données",
+                "img": "pandas.png",
+                "alt": "Logo de Pandas"
+            }
+        ],
+        "comp_pro": [
+            "Mener les échanges avec le MOA et le MOE",
+            "Vulgarisation des termes informatiques pour le client",
+            "Usage professionel de vue.js"
+        ]
+    },
+    "stage-cermep-2026": {
+        "titre_pro": "Stage au Cermep",
+        "duree_pro": "juin - août 2026",
+        "contexte_pro": "À la suite d’une inspection de conformité à la norme ISO 9001, le Cermep a constaté que sa gestion des non-conformités (NC) n’était pas totalement conforme aux exigences de la norme. Dans le cadre de cette mise en conformité, nous avons également profité de l’occasion pour migrer les interfaces de gestion des NC depuis une ancienne base de code vers une architecture MVC.\nDans un deuxième temps, nous avons créé deux tableaux de bord : le premier est dédié au suivi des non-conformités, tandis que le second est destiné à la prise de décision et permet de visualiser l’activité globale du Cermep.\nJ’ai particulièrement apprécié de pouvoir travailler sur une architecture existante. En effet, ce type d’expérience est difficile à acquérir dans le cadre universitaire et permet de mieux comprendre les contraintes liées à la maintenance et à l’évolution d’une application existante. J’ai également apprécié les échanges avec mon maître de stage, qui m’ont permis de bénéficier de retours directs sur mon code et ainsi d’améliorer progressivement ma manière de développer.\n",
+        "image_pro": [
+            "stats.png"
+        ],
+        "techno_pro": [
+            {
+                "text": "PHP : On utilise l'architecture déjà mise en place",
+                "img": "php.png",
+                "alt": "Logo de PHP"
+            },
+            {
+                "text": "Jquery : Framework JS",
+                "img": "jquery.png",
+                "alt": "Logo de Jquery"
+            },
+            {
+                "text": "Apache Echarts : Construction de graphes",
+                "img": "echarts.png",
+                "alt": "Logo de Echarts"
+            }
+        ],
+        "comp_pro": [
+            "Analyse d'une architecture déjà mise en place",
+            "Recherche des indicateurs et conception des graphes",
+            "Échanges avec les utilisateurs",
+            "Développement de tableaux de bord avec Apache Echarts"
+        ]
+    },
+    "stage-cermep-2025": {
+        "titre_pro": "Stage au Cermep",
+        "duree_pro": "avril - juin 2025",
+        "contexte_pro": "Dans le cadre d’une démarche de recherche et développement, le Cermep souhaite explorer de nouvelles technologies modernes pour le back-end ainsi que pour son site web intranet.\nPour le back-end, nous utilisons FastAPI afin de centraliser les flux d’information et de définir des modèles de données stricts à l’aide de Pydantic. L’API est également sécurisée grâce à l’utilisation de JWT. Par ailleurs, elle intègre une mise à jour de l’algorithme de hachage des mots de passe ainsi qu’un système de journalisation permettant de tracer les modifications effectuées sur la base de données.\nConcernant le site web, nous avons développé un prototype simple connecté à l’API, afin d’évaluer la pertinence d’une future modernisation de l’intranet et de déterminer s’il est pertinent de lancer un projet de plus grande ampleur.\nPour ma première expérience professionnelle, j’ai particulièrement apprécié la liberté qui m’a été accordée, me permettant d’explorer différentes technologies et de découvrir concrètement les exigences et les pratiques du métier de développeur.",
+        "image_pro": [],
+        "techno_pro": [
+            {
+                "text": "Fastapi : outil pour créer des Api en Python",
+                "img": "fastapi.png",
+                "alt": "Logo de Fastapi"
+            },
+            {
+                "text": "Symfony : Conception d'un nouveau site web intranet",
+                "img": "symfony.png",
+                "alt": "Logo de Symfony"
+            }
+        ],
+        "comp_pro": [
+            "Analyser et comprendre une base de donnée déjà présente",
+            "Comprendre les enjeux et le fonctionnement du métier",
+            "Développement professionel avec Fastapi",
+            "Intégration de Fastapi a un projet Symfony"
+        ]
+    }
+}

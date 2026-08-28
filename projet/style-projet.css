@@ -1,0 +1,47 @@
+#image-proj img {
+    width: 100%;
+    height: auto;
+}
+
+#image-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#techno-proj img {
+    height: 130px;
+    object-fit: contain;
+}
+
+#git-proj a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+#git-proj a:hover {
+    text-decoration: underline;
+}
+
+p {
+    white-space: pre-line;
+    line-height: 1.8;
+}
+
+.wrapper-techno-text {
+    background-color: #423f3f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section:last-child {
+    margin-bottom: 2rem;
+}
