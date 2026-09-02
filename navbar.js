@@ -52,6 +52,13 @@ class MainNav extends HTMLElement {
                 </ul>
             </div>
         </nav>
+
+        <style>
+            .navbar-nav {
+                background-color: white !important;
+                border-radius: 0.375rem !important;
+            }
+        </style>
         `
     }
 }

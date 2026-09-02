@@ -76,7 +76,12 @@ function home() {
 
 }
 
+const lenis = new Lenis({
+    autoRaf: true,
+});
 
+particlesJS.load('particles-js', 'particlesjs-config.json', function () {
+});
 
 if (document.readyState !== 'loading') {
     makeContent();
